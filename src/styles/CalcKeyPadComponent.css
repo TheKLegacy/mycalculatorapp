@@ -1,0 +1,27 @@
+.keypad-container {
+    margin: 0 auto;
+    width:75%;
+    background-color: grey;
+    
+}
+
+.keypad-container .row button {
+    width: 100%;
+    border: 1px solid #96A6A7;
+    background-color: #E0E0E0;
+    font-size: 32px;
+    padding:10px;
+    box-shadow: unset;
+    color: black;
+}
+.keypad-container .row button:focus {
+    box-shadow: none !important;
+}
+
+.keypad-container .row div[class*="col-"]:last-child button {
+    background-color: #F8B500;
+}
+
+.keypad-container .row div[class*="col-"] {
+    padding: 0px;
+}
